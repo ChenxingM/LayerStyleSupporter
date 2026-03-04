@@ -1,0 +1,22 @@
+{
+  "name": "layer-style-supporter",
+  "version": "16.11.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --config webpack.config.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "extendscript-es5-shim-ts": "latest",
+    "glob": "^8.0.3",
+    "ts-loader": "^9.4.1",
+    "types-for-adobe": "github:pravdomil/types-for-adobe",
+    "typescript": "^4.8.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

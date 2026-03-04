@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es3",
+    "module": "CommonJS",
+    "noLib": true,
+    "jsx": "preserve",
+    "outDir": "./root",
+    "rootDir": "./",
+    "strict": true,
+    "types": [
+      "types-for-adobe/AfterEffects/24.6"
+    ],
+    "esModuleInterop": true
+  },
+  "include": ["root/**/*.ts", "types/**/*.d.ts"],
+  "exclude": []
+}
